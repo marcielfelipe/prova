@@ -14,7 +14,7 @@ function add(cotainer){
   const l4=local4.length
 
   if(l1<l2 &&l1<l3&&l1,l4){
-    if(l1<4){
+    if(l1>3){
       console.log('Impossível empilhar!')
     }else{
       local1.push(cotainer)
@@ -22,7 +22,7 @@ function add(cotainer){
     }
   }
   else if(l2<l1 &&l2<l3&&l2,l4){
-    if(l2<4){
+    if(l2>3){
       console.log('Impossível empilhar!')
     }else{
       local2.push(cotainer)
@@ -30,18 +30,18 @@ function add(cotainer){
     }
   }
   else if(l3<l1 &&l3<l2&&l2,l4){
-    if(l3<4){
+    if(l3>4){
       console.log('Impossível empilhar!')
     }else{
-      local2.push(cotainer)
+      local3.push(cotainer)
       console.log('Adicionado ao local 3')
     }
   }
   else if(l3<l1 &&l3<l2&&l3,l4){
-    if(l3<4){
+    if(l3>4){
       console.log('Impossível empilhar!')
     }else{
-      local2.push(cotainer)
+      local4.push(cotainer)
       console.log('Adicionado ao local 3')
     }
   }
@@ -53,3 +53,9 @@ function rem(){
     
   }
 }
+
+add('teste1')
+add('teste1')
+add('teste1')
+add('teste1')
+add('teste1')
